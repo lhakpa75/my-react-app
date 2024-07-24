@@ -8,29 +8,44 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+      <header>
+        <a href="#" className="logo">
+          Project 3
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Day 3</h1>
-      <div className="about">
-        <p>Hi my name is Lhakpa Sherpa.</p>
-      </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      </header>
+      <h1>Html & Css</h1>
+      <p>Learn how to code!!</p>
+      <nav className="menu">
+        <ul>
+          <li className="nav">
+            <a href="#">Home</a>
+          </li>
+          <li className="nav">
+            <a href="#">About</a>
+          </li>
+          <li className="nav">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <section>
+          <div className="main">
+            To build websites, you should know about HTML — the fundamental
+            technology used to define the structure of a webpage. HTML is used
+            to specify whether your web content should be recognized as a
+            paragraph, list, heading, link, image, multimedia player, form, or
+            one of many other available elements or even a new element that you
+            define.
+          </div>
+        </section>
+        <aside>
+          <p>
+            Before starting this topic, you should have at least basic
+            familiarity with using computers and using the web passively{" "}
+          </p>
+        </aside>
+      </article>
     </>
   );
 }
